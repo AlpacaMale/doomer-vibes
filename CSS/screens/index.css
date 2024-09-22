@@ -17,14 +17,14 @@
 .index-bg {
   height: 100vh;
   width: 100vw;
-  background-image: url("/img/smoke.gif");
+  background-image: url("../../img/smoke.gif");
   background-size: cover;
 }
 
 .phone-bg {
   height: 100vh;
   width: calc(100vw - 440px);
-  background-image: url(/img/phone.jpg);
+  background-image: url("../../img/phone.jpg");
   background-size: cover;
   background-position: right;
 }
