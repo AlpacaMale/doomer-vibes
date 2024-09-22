@@ -1,0 +1,27 @@
+.chats {
+  padding: var(--padding-default);
+}
+
+.chats__list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.chats__list-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+}
+
+.chats__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}

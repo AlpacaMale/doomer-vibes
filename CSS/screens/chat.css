@@ -1,0 +1,81 @@
+.chat__list-item {
+  padding: var(--padding-default);
+  display: flex;
+  gap: 10px;
+}
+
+.chat__text {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.chat__text--me {
+  margin-top: 35px;
+  width: 100%;
+  align-items: flex-end;
+}
+
+.chat__username {
+  font-weight: bold;
+}
+
+.chat__message-content {
+  font-size: 15px;
+  background-color: var(--subtitle);
+  color: black;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+}
+
+.chat__message-content--me {
+  background-color: var(--kokoa);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0px;
+}
+
+.chat__message-timestamp {
+  font-size: 12px;
+  color: var(--subtitle);
+}
+
+.chat-bar {
+  color: var(--subtitle);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat__plus > *,
+.chat__btns > * {
+  padding: var(--padding-default);
+}
+
+.chat__input {
+  width: 67%;
+}
+
+.chat__input > input {
+  width: 100%;
+  color: var(--subtitle);
+  background: none;
+  border: none;
+}
+
+.chat__input > input:focus-visible {
+  outline: none;
+}
+
+.chat__back {
+  color: white;
+  text-decoration: none;
+}
+
+.chat__back:visited {
+  color: white;
+}

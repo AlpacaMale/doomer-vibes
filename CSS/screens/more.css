@@ -1,0 +1,62 @@
+.wallet {
+  padding: var(--padding-default);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: var(--kokoa);
+  color: black;
+}
+
+.wallet__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wallet__column {
+  display: flex;
+  gap: 10px;
+}
+
+.grid {
+  padding: var(--padding-default);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.grid__item {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--subtitle);
+}
+
+.grid__item:nth-child(4),
+.grid__item:first-child {
+  flex-direction: row;
+  grid-column: span 2;
+  gap: 0;
+  justify-content: space-around;
+  padding-left: 10px;
+}
+
+.grid__item:nth-child(4) > i,
+.grid__item:first-child > i {
+  font-size: 50px;
+}
+
+.grid__item:nth-child(4) > span,
+.grid__item:first-child > span {
+  align-self: flex-end;
+}
+
+.grid__item > span {
+  font-size: 12px;
+}
+
+.grid__item > i {
+  font-size: 28px;
+}

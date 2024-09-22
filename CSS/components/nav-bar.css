@@ -1,0 +1,28 @@
+.nav-bar {
+  height: 60px;
+  width: 440px;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+}
+
+.nav-bar__element {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: var(--nav-bar);
+  border-top: 1px solid var(--nav-bar-border);
+  color: white;
+  text-decoration: none;
+}
+
+.nav-bar__element > i {
+  font-size: 24px;
+}
+
+.nav-bar__element > span {
+  font-size: 12px;
+}

@@ -1,0 +1,13 @@
+.screen-header {
+  display: flex;
+  padding: var(--padding-default);
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: bold;
+  position: sticky;
+}
+
+.screen-header__column {
+  display: flex;
+  gap: 15px;
+}

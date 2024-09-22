@@ -1,0 +1,50 @@
+@keyframes DOOMER-WAVE {
+  0% {
+    color: transparent;
+    opacity: 1;
+  }
+  50% {
+    color: white;
+    opacity: 1;
+  }
+  100% {
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.index-bg {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/img/smoke.gif");
+  background-size: cover;
+}
+
+.phone-bg {
+  height: 100vh;
+  width: calc(100vw - 440px);
+  background-image: url(/img/phone.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.fa-mobile {
+  font-size: 100px;
+  color: white;
+  margin: 30px;
+  position: absolute;
+}
+
+.logo-screen {
+  background-color: black;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+  animation: DOOMER-WAVE 5s ease-in-out forwards;
+}
